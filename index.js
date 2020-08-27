@@ -38,7 +38,7 @@ burger.discount = function (customer) {
   } else if (customer === "student") {
     return 18 - 18 * 0.25;
   } else {
-    return 18 - 18 * 0.25;
+    return 18 - 18 * 0.1;
   }
 };
 
@@ -131,7 +131,7 @@ and should return a string in the format `{name} gave the restaurant a {rating},
 function getReviewByIndex(reviews, index) {
   return `${reviews[index].name} gave the restaurant a ${reviews[index].rating}, and their feedback was: ${reviews[index].feedback}`;
 }
-console.log(getReviewByIndex(reviews, 5));
+console.log(getReviewByIndex(reviews, 0));
 
 /* Task 7: Write a function to get information about the most recent review called `getLastReview`
 

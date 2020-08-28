@@ -108,12 +108,11 @@ function changeValue(obj, keytochange, newvalue) {
   obj[keytochange] = newvalue;
 }
 
-console.log(
+
   changeValue(
     reviews[7],
     "feedback",
     "this place is chill with really cool people, great for getting work done on weekdays"
-  )
 );
 console.log(reviews);
 /*  Task 6: Write a function to return a review based on the index of the review in the array.
